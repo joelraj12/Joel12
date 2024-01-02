@@ -95,14 +95,14 @@ start_time = time.time()
 
 # Trigger to send an email to the user for update
 while True:
-    from_email = "carbonspiders12@gmail.com"
-    to_email = "jjessperaj@gmail.com"
+    from_email = sender
+    to_email = receiver 
     subject = "Plant update"
     body = "Update on Plant Health captured by ESP32 CAM"
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    smtp_username = "carbonspiders12@gmail.com"
-    smtp_pass = "ppvn tiit yufl pbna"
+    smtp_username = sender email
+    smtp_pass = sender password
 
     image_path = ("New Image.jpg")
 
